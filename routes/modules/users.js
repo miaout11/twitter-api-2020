@@ -54,8 +54,8 @@ router.get('/:id', authenticated, authenticatedUser, userController.getUser)
 router.put(
   '/:id',
   upload.fields([
-    { name: 'avatar', maxCount: 5 },
-    { name: 'cover', maxCount: 5 }
+    { name: 'avatar', maxCount: 1 },
+    { name: 'cover', maxCount: 1 }
   ]),
   authenticated,
   authenticatedUser,
