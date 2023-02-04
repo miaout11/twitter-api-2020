@@ -4,7 +4,7 @@
 
 This is RESTful API server about Simple Twitter with fundamental operation of database, you can login by following account to start your twitter.
 
-**Demo** is hosted [here](https://yuwen-ctw.github.io/simple_twitter/login).
+**Demo** is hosted [here](https://simple-twitter-ac-yuwen-team.netlify.app/login).
 
 **Features**
 
@@ -28,12 +28,6 @@ password: 12345678
 
 ## API Documents
 
-Use api documents with following base URL.
-
-```
-https://quiet-mountain-47605.herokuapp.com/
-```
-
 - [API Documents](https://gabby-chimpanzee-de2.notion.site/API-Documents-8fbcef78100c4d3ebde095c3031a0856)
 
 ## Start to build a local API server
@@ -43,13 +37,13 @@ https://quiet-mountain-47605.herokuapp.com/
 #### Clone the repo
 
 ```
-git clone https://github.com/miaout11/twitter-api-2022.git
+git clone https://github.com/Yuwen-ctw/twitter-api
 ```
 
 #### Switch to project folder
 
 ```
-cd twitter-api-2022
+cd twitter-api
 ```
 
 #### Open project
@@ -77,7 +71,7 @@ IMGUR_CLIENT_ID=
 
 ##### Set upload feature
 
-- Create `temp` folder for ensuring image to enable upload.
+- Create `tmp` folder for ensuring image to enable upload.
 
 #### Setting database
 
@@ -109,14 +103,13 @@ npx sequelize db:seed:all
 ### Start server
 
 ```
-npm start
+npm run dev
 ```
 
 ## Built With
 
 - [Express](https://expressjs.com/) - The framework used
 - [MySQL](https://www.mysql.com/) - Database
-- [Heroku](https://www.heroku.com/platform) - Where API hosted
 
 ## Authors
 
